@@ -5,12 +5,14 @@
     flex-direction: column;
     align-items: center;
     height: 300;
-    width: 300;
+    width: 400;
+    background-color: whitesmoke;
+    margin-top: 20px;
 }
 
 img {
     width: 215px;
-    border: 2px solid silver;
+
 }
 
 p {
@@ -18,5 +20,14 @@ p {
     flex-wrap: wrap;
     width: 175px;
     text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+.text {
+    font-weight: bold;
+    margin: 5px;
 }
 

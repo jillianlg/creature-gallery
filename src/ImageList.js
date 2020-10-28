@@ -31,9 +31,11 @@ export default class ImageList extends React.Component {
 
         return (
             <>
+            <div className="text">Filter by Creature:</div>
             <select onChange={this.handleKeywordChange}>
                 {options}
             </select>
+            <div className="text">Filter by Horns:</div>
             <select onChange={this.handleHornsChange}>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
