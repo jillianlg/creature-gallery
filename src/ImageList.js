@@ -1,5 +1,4 @@
 import React from 'react';
-import images from './ImageData.js';
 import './ImageList.css';
 import ImageItems from './ImageItem.js';
 
