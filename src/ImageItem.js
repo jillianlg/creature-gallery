@@ -1,5 +1,4 @@
 import React from 'react';
-import images from './ImageData.js';
 import './ImageItem.css';
 
 //presentational componets (items)
